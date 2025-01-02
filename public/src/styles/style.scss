@@ -24,6 +24,12 @@ body {
             align-items: center;
             height: 26.7vh;
             width: 100%;
+
+            a {
+                img {
+                    cursor: url(../../assets/cursor-exemple.png) 16 16, auto;
+                }
+            }
         }
         
         .banner {
@@ -51,6 +57,7 @@ body {
             img {
                 width: 25%;
                 height: auto;
+                cursor: url(../../assets/cursor-exemple.png), auto;
             }
         }
     }
@@ -66,6 +73,10 @@ body {
         p {
             font-size: 1.5rem;
             font-weight: 400;
+        }
+
+        img {
+            cursor: url(../../assets/cursor-exemple.png), auto;
         }
     }
 }
