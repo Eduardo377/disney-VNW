@@ -46,4 +46,16 @@ body main section {
 body main section img {
   width: 25%;
   height: auto;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 26.7vh;
+  width: 100%;
+  gap: 2rem;
+}
+body footer p {
+  font-size: 1.5rem;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
