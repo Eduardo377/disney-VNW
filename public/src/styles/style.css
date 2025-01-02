@@ -17,4 +17,16 @@ body header nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  height: 26.6576454668vh;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+body main img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
