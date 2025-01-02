@@ -1,5 +1,24 @@
+:root {
+    --v-primary-color-white: #ffffff;
+    --v-primary-color-gray: #1E1E1E;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--v-primary-color-gray);
+    color: var(--v-primary-color-white);
+
+    header {
+
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
 }
