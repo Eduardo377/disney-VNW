@@ -10,23 +10,40 @@
 }
 
 body {
-  background-color: var(--v-primary-color-gray);
   color: var(--v-primary-color-white);
+  background-color: var(--v-primary-color-gray);
+}
+body header {
+  border-bottom: var(--v-primary-color-white) 1rem solid;
 }
 body header nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 26.6576454668vh;
+  height: 26.7vh;
+  width: 100%;
+}
+body header .banner {
+  width: 100%;
+  height: auto;
 }
 body main {
+  background-color: var(--v-primary-color-white);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: 180vh;
+  width: auto;
 }
-body main img {
-  width: 100%;
+body main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7rem;
+}
+body main section img {
+  width: 25%;
   height: auto;
 }/*# sourceMappingURL=style.css.map */
